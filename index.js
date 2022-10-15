@@ -146,11 +146,11 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
                 if (anu.action == 'add') {
                     GojoMdNx.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `
 ⭐✑ أهلا وسهلا💮👋 @${num.split("@")[0]},
-⭐✑  نورت جروبنا الأسطوري أن بوتة روبين🔰❤ ${metadata.subject}
+⭐✑  نورت جروبنا الأسطوري أن بوتة روبين❤ ${metadata.subject}
 
-⭐✑ الوصف✨🍀 : ${metadata.desc}
+⭐✑ الوصف : ${metadata.desc}
 
-⭐✑ ❤🌸ا اتمنى ان تستمتع معنا!!`} )
+⭐✑ ❤ا اتمنى ان تستمتع معنا!!`} )
                 } else if (anu.action == 'remove') {
                     GojoMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `⭐✑ @${num.split("@")[0]} غادر ${metadata.subject}
 
